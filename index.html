@@ -3,12 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Habitaciones en alquiler en Castellón de la Plana para estudiantes y jóvenes profesionales. Habitaciones privadas desde 270 €/mes, WiFi, cocina, lavandería y gastos incluidos." />
-  <meta name="keywords" content="habitaciones Castellón, alquiler habitación Castellón, coliving Castellón, habitaciones estudiantes Castellón, piso compartido Castellón, habitaciones jóvenes profesionales Castellón" />
+  <meta name="description" content="Habitaciones en alquiler en Castellón de la Plana para estudiantes y jóvenes profesionales. Habitaciones privadas desde 330 €/mes, WiFi, cocina, limpieza y gastos incluidos." />
+  <meta name="keywords" content="habitaciones Castellón, alquiler habitación Castellón, coliving Castellón, habitaciones estudiantes Castellón, piso compartido Castellón, habitaciones jóvenes profesionales Castellón, UJI Castellón, Erasmus Castellón" />
   <link rel="canonical" href="https://azaharliving.es" />
-  <!-- Open Graph -->
   <meta property="og:title" content="Habitaciones en Castellón | Estudiantes y jóvenes profesionales | Azahar Living" />
-  <meta property="og:description" content="Habitaciones en alquiler en Castellón de la Plana desde 270 €/mes. WiFi, cocina, lavandería y gastos incluidos." />
+  <meta property="og:description" content="Habitaciones privadas desde 330€/mes en Castellón. WiFi, cocina, limpieza semanal y gastos incluidos." />
   <meta property="og:url" content="https://azaharliving.es" />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="es_ES" />
@@ -24,23 +23,22 @@
   <header class="navbar" id="navbar">
     <div class="container navbar__inner">
       <a href="#hero" class="navbar__logo" aria-label="Azahar Living - Inicio">
-        <img src="images/Logo Coliving.png" alt="Azahar Living" class="navbar__logo-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+        <img src="images/Logo Coliving.png" alt="Azahar Living" class="navbar__logo-img"
+             onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
         <span class="navbar__logo-text" style="display:none;">
           <span class="logo-azahar">Azahar</span><span class="logo-living">Living</span>
         </span>
       </a>
-
       <nav class="navbar__menu" id="navMenu" aria-label="Menú principal">
         <ul>
-          <li><a href="#about"    data-i18n="nav.about">Nosotros</a></li>
-          <li><a href="#gallery"  data-i18n="nav.gallery">El Espacio</a></li>
+          <li><a href="#why"      data-i18n="nav.why">Por qué</a></li>
           <li><a href="#rooms"    data-i18n="nav.rooms">Habitaciones</a></li>
+          <li><a href="#forwhom"  data-i18n="nav.forwhom">¿Para quién?</a></li>
           <li><a href="#services" data-i18n="nav.services">Servicios</a></li>
-          <li><a href="#pricing"  data-i18n="nav.pricing">Precios</a></li>
+          <li><a href="#location" data-i18n="nav.location">Castellón</a></li>
           <li><a href="#contact"  data-i18n="nav.contact">Contacto</a></li>
         </ul>
       </nav>
-
       <div class="navbar__actions">
         <div class="lang-switcher" role="group" aria-label="Cambiar idioma">
           <button class="lang-btn active" id="btnEs" onclick="setLang('es')" aria-pressed="true">ES</button>
@@ -55,13 +53,20 @@
     </div>
   </header>
 
-  <!-- ===================== HERO ===================== -->
+  <!-- ===================== 1. HERO ===================== -->
   <section class="hero" id="hero" style="background-image:url('images/castellon de la plana.webp')">
     <div class="hero__overlay"></div>
     <div class="container hero__content">
       <p class="hero__eyebrow" data-i18n="hero.eyebrow">Azahar Living · Ático Premium · Castellón de la Plana</p>
       <h1 class="hero__title" data-i18n="hero.title">Habitaciones en Castellón<br>para estudiantes y jóvenes profesionales</h1>
       <p class="hero__subtitle" data-i18n="hero.subtitle">Tu habitación privada en Castellón, con todo lo que necesitas para vivir, estudiar y trabajar.</p>
+      <div class="hero__pills">
+        <span class="hero__pill">🏠 <span data-i18n="hero.pill1">Habitación privada</span></span>
+        <span class="hero__pill">🧑‍🤝‍🧑 <span data-i18n="hero.pill2">Comunidad</span></span>
+        <span class="hero__pill">💻 <span data-i18n="hero.pill3">Espacio de trabajo</span></span>
+        <span class="hero__pill">🧹 <span data-i18n="hero.pill4">Servicios incluidos</span></span>
+        <span class="hero__pill">📍 <span data-i18n="hero.pill5">Castellón centro</span></span>
+      </div>
       <div class="hero__actions">
         <a href="#rooms" class="btn btn--primary btn--lg" data-i18n="hero.cta1">Ver habitaciones</a>
         <a href="#contact" class="btn btn--ghost btn--lg" data-i18n="hero.cta2">Reservar plaza</a>
@@ -73,63 +78,76 @@
         </div>
         <div class="stat__divider"></div>
         <div class="stat">
-          <span class="stat__number">Ático</span>
-          <span class="stat__label" data-i18n="hero.stat2">240 m² exclusivos</span>
+          <span class="stat__number">7</span>
+          <span class="stat__label" data-i18n="hero.stat2">habitaciones privadas</span>
         </div>
         <div class="stat__divider"></div>
         <div class="stat">
-          <span class="stat__number">🌊🏔️</span>
-          <span class="stat__label" data-i18n="hero.stat3">mar y montaña</span>
+          <span class="stat__number">240m²</span>
+          <span class="stat__label" data-i18n="hero.stat3">ático exclusivo</span>
         </div>
       </div>
     </div>
     <div class="hero__scroll-hint" aria-hidden="true"><span></span></div>
   </section>
 
-  <!-- ===================== ABOUT ===================== -->
-  <section class="about section" id="about">
-    <div class="container about__grid">
-
-      <!-- LOGO en lugar de imágenes -->
-      <div class="about__logo-wrap">
-        <img src="images/Logo Coliving.png"
-             alt="Azahar Living — Professional Coliving Castellón"
-             class="about__logo-img"
-             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
-        <!-- Fallback texto si no hay archivo de logo -->
-        <div class="about__logo-fallback" style="display:none;">
-          <span class="logo-azahar" style="font-size:3rem;">Azahar</span><span class="logo-living" style="font-size:3rem;">Living</span>
-          <p class="about__logo-sub">Professional Coliving · Castellón</p>
-          <p class="about__logo-tagline">More than a place.</p>
-        </div>
+  <!-- ===================== 2. ¿POR QUÉ AZAHAR LIVING? ===================== -->
+  <section class="why section" id="why">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__label" data-i18n="why.label">Por qué elegirnos</p>
+        <div class="gold-divider" style="margin:0 auto 16px;"></div>
+        <h2 class="section__title" data-i18n="why.title">¿Por qué Azahar Living?</h2>
+        <p class="section__subtitle" data-i18n="why.subtitle">Un ático de 240 m² en el centro de Castellón, sin vecinos laterales, con vistas al mar y a la montaña, y todo incluido en el precio.</p>
       </div>
-
-      <div class="about__text">
-        <p class="section__label" data-i18n="about.label">Sobre nosotros</p>
-        <div class="gold-divider"></div>
-        <h2 class="section__title" data-i18n="about.title">Más que un alojamiento, una comunidad</h2>
-        <p data-i18n="about.p1">Azahar Living es un ático de 240 m² con orientación única: sol de mañana a noche, sin vecinos laterales y con vistas inmejorables al mar y a la montaña. Un lujo que en Castellón existe de verdad.</p>
-        <p data-i18n="about.p2">Una comunidad de profesionales activos, curiosos y con ganas de crecer. Habitaciones de 15 a 25 m² con cama de 135, armarios empotrados y 3 baños compartidos — todo en un ático que te da el espacio y la libertad que mereces.</p>
-        <div class="about__pillars">
+      <div class="why__grid">
+        <div class="why-card">
+          <div class="about__logo-wrap">
+            <img src="images/Logo Coliving.png"
+                 alt="Azahar Living"
+                 class="about__logo-img"
+                 onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+            <div class="about__logo-fallback" style="display:none;">
+              <span class="logo-azahar" style="font-size:2.5rem;">Azahar</span><span class="logo-living" style="font-size:2.5rem;">Living</span>
+              <p class="about__logo-sub">Professional Coliving · Castellón</p>
+              <p class="about__logo-tagline">More than a place.</p>
+            </div>
+          </div>
+        </div>
+        <div class="why__pillars">
           <div class="pillar">
             <span class="pillar__icon">📐</span>
             <div>
-              <strong data-i18n="about.pillar1.title">Ático exclusivo</strong>
-              <p data-i18n="about.pillar1.desc">240 m² sin vecinos laterales — tu espacio, tu silencio</p>
-            </div>
-          </div>
-          <div class="pillar">
-            <span class="pillar__icon">🚀</span>
-            <div>
-              <strong data-i18n="about.pillar2.title">Tu tribu</strong>
-              <p data-i18n="about.pillar2.desc">Profesionales activos, nómadas y emprendedores con ganas de crecer</p>
+              <strong data-i18n="why.p1.title">Ático exclusivo de 240 m²</strong>
+              <p data-i18n="why.p1.desc">Sin vecinos laterales — tu espacio, tu silencio. Sol todo el día.</p>
             </div>
           </div>
           <div class="pillar">
             <span class="pillar__icon">🌊</span>
             <div>
-              <strong data-i18n="about.pillar3.title">Vistas inmejorables</strong>
-              <p data-i18n="about.pillar3.desc">Mar Mediterráneo y montaña — desde el ático, todo se ve mejor</p>
+              <strong data-i18n="why.p2.title">Vistas inmejorables</strong>
+              <p data-i18n="why.p2.desc">Mar Mediterráneo y montaña desde las ventanas del ático.</p>
+            </div>
+          </div>
+          <div class="pillar">
+            <span class="pillar__icon">💰</span>
+            <div>
+              <strong data-i18n="why.p3.title">Todo incluido, sin sorpresas</strong>
+              <p data-i18n="why.p3.desc">WiFi, agua, luz, gas, limpieza semanal. Un solo pago al mes.</p>
+            </div>
+          </div>
+          <div class="pillar">
+            <span class="pillar__icon">🧑‍🤝‍🧑</span>
+            <div>
+              <strong data-i18n="why.p4.title">Comunidad real</strong>
+              <p data-i18n="why.p4.desc">Comparte espacio con estudiantes y profesionales que comparten tu energía.</p>
+            </div>
+          </div>
+          <div class="pillar">
+            <span class="pillar__icon">📍</span>
+            <div>
+              <strong data-i18n="why.p5.title">Centro de Castellón</strong>
+              <p data-i18n="why.p5.desc">Av. Rei en Jaume 92 — a pie de todo lo que necesitas.</p>
             </div>
           </div>
         </div>
@@ -137,76 +155,28 @@
     </div>
   </section>
 
-  <!-- ===================== GALLERY ===================== -->
-  <section class="gallery section section--dark" id="gallery">
-    <div class="container">
-      <div class="section__header section__header--light">
-        <p class="section__label" data-i18n="gallery.label">El espacio</p>
-        <div class="gold-divider" style="margin:0 auto 16px;"></div>
-        <h2 class="section__title section__title--light" data-i18n="gallery.title">Proyecto en reforma</h2>
-        <p class="section__subtitle section__subtitle--light" data-i18n="gallery.subtitle">Ático de 240 m² actualmente en transformación. Las fotos del resultado final se añadirán próximamente.</p>
-      </div>
-
-      <!-- Grid placeholder -->
-      <div class="gallery__placeholder-grid">
-        <div class="gallery__placeholder">
-          <span class="gallery__placeholder-icon">🍳</span>
-          <p data-i18n="gallery.ph.kitchen">Cocina 30 m²</p>
-          <span class="gallery__placeholder-label">— Foto próximamente —</span>
-        </div>
-        <div class="gallery__placeholder">
-          <span class="gallery__placeholder-icon">🛏️</span>
-          <p data-i18n="gallery.ph.room">Habitaciones</p>
-          <span class="gallery__placeholder-label">— Foto próximamente —</span>
-        </div>
-        <div class="gallery__placeholder">
-          <span class="gallery__placeholder-icon">🚿</span>
-          <p data-i18n="gallery.ph.bath">3 Baños</p>
-          <span class="gallery__placeholder-label">— Foto próximamente —</span>
-        </div>
-        <div class="gallery__placeholder">
-          <span class="gallery__placeholder-icon">🌊</span>
-          <p data-i18n="gallery.ph.views">Vistas al mar</p>
-          <span class="gallery__placeholder-label">— Foto próximamente —</span>
-        </div>
-      </div>
-
-      <!-- Banner proyecto centrado -->
-      <div class="project-banner project-banner--center">
-        <div class="project-banner__icon">🔨</div>
-        <div>
-          <strong data-i18n="gallery.banner.title">Proyecto en reforma</strong>
-          <p data-i18n="gallery.banner.desc">Plazas limitadas con precio de lanzamiento. Reserva tu plaza en enero y sé de los primeros residentes.</p>
-        </div>
-        <a href="#contact" class="btn btn--gold" data-i18n="gallery.banner.cta">Reserva tu plaza en enero</a>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- ===================== ROOMS ===================== -->
-  <section class="rooms section" id="rooms">
+  <!-- ===================== 3. HABITACIONES ===================== -->
+  <section class="rooms section section--alt" id="rooms">
     <div class="container">
       <div class="section__header">
         <p class="section__label" data-i18n="rooms.label">Habitaciones</p>
         <div class="gold-divider" style="margin:0 auto 16px;"></div>
-        <h2 class="section__title" data-i18n="rooms.title">Espacios diseñados para ti</h2>
-        <p class="section__subtitle" data-i18n="rooms.subtitle">7 habitaciones privadas en Castellón. Cuatro categorías para adaptarse a tu espacio y presupuesto.</p>
+        <h2 class="section__title" data-i18n="rooms.title">7 habitaciones privadas en Castellón</h2>
+        <p class="section__subtitle" data-i18n="rooms.subtitle">Cuatro categorías para adaptarse a tu espacio y presupuesto.</p>
       </div>
-
 
       <div class="rooms__grid rooms__grid--2x2">
 
-        <!-- ESTÁNDAR (x3) -->
+        <!-- STANDARD -->
         <article class="room-card">
-          <div class="room-card__image" style="background-image:none;" data-placeholder="room" role="img" aria-label="Habitación Estándar"></div>
+          <div class="room-card__image" style="background-image:none;" data-placeholder="room" role="img" aria-label="Habitación Standard"></div>
           <div class="room-card__body">
             <div class="room-card__top">
-              <h3 data-i18n="rooms.r1.name">Estándar</h3>
+              <h3>Standard <span class="room-card__qty">× 3</span></h3>
               <span class="room-card__badge" data-i18n="rooms.available">Disponible</span>
             </div>
             <ul class="room-card__features">
-              <li>📐 <span data-i18n="rooms.r1.f1">15 m²</span></li>
+              <li>📐 <span>15 m²</span></li>
               <li>🏔️ <span data-i18n="rooms.r1.f2">Vistas a la montaña</span></li>
               <li>🛏️ <span data-i18n="rooms.r1.f3">Cama 135 cm</span></li>
               <li>🚪 <span data-i18n="rooms.r1.f4">Armario empotrado</span></li>
@@ -215,23 +185,23 @@
             <div class="room-card__price">
               <span class="price__amount">330€</span>
               <span class="price__period" data-i18n="rooms.month">/ mes</span>
-              <span class="price__extra" data-i18n="rooms.extra">+ 60€ gastos</span>
+              <span class="price__extra" data-i18n="rooms.extra">gastos incluidos</span>
             </div>
             <a href="#contact" class="btn btn--outline btn--block" data-i18n="rooms.cta">Solicitar info</a>
           </div>
         </article>
 
-        <!-- PREMIUM (x2) -->
+        <!-- PREMIUM -->
         <article class="room-card room-card--featured">
           <div class="room-card__ribbon" data-i18n="rooms.popular">Más popular</div>
           <div class="room-card__image" style="background-image:none;" data-placeholder="room" role="img" aria-label="Habitación Premium"></div>
           <div class="room-card__body">
             <div class="room-card__top">
-              <h3 data-i18n="rooms.r2.name">Premium</h3>
+              <h3>Premium ⭐ <span class="room-card__qty">× 2</span></h3>
               <span class="room-card__badge" data-i18n="rooms.available">Disponible</span>
             </div>
             <ul class="room-card__features">
-              <li>📐 <span data-i18n="rooms.r2.f1">20 m²</span></li>
+              <li>📐 <span>20 m²</span></li>
               <li>🌊 <span data-i18n="rooms.r2.f2">Vistas al mar</span></li>
               <li>🛏️ <span data-i18n="rooms.r2.f3">Cama 135 cm</span></li>
               <li>🚪 <span data-i18n="rooms.r2.f4">Armario empotrado grande</span></li>
@@ -240,47 +210,47 @@
             <div class="room-card__price">
               <span class="price__amount">350€</span>
               <span class="price__period" data-i18n="rooms.month">/ mes</span>
-              <span class="price__extra" data-i18n="rooms.extra">+ 60€ gastos</span>
+              <span class="price__extra" data-i18n="rooms.extra">gastos incluidos</span>
             </div>
             <a href="#contact" class="btn btn--primary btn--block" data-i18n="rooms.cta">Solicitar info</a>
           </div>
         </article>
 
-        <!-- PREMIUM BALCONY (x1) -->
+        <!-- PREMIUM CON TERRAZA -->
         <article class="room-card room-card--balcony">
           <div class="room-card__ribbon room-card__ribbon--gold" data-i18n="rooms.exclusive">Exclusiva</div>
-          <div class="room-card__image" style="background-image:none;" data-placeholder="room" role="img" aria-label="Habitación Premium Balcony"></div>
+          <div class="room-card__image" style="background-image:none;" data-placeholder="room" role="img" aria-label="Habitación Premium con Terraza"></div>
           <div class="room-card__body">
             <div class="room-card__top">
-              <h3 data-i18n="rooms.r3.name">Premium Balcony</h3>
+              <h3>Premium con Terraza 🌿 <span class="room-card__qty">× 1</span></h3>
               <span class="room-card__badge room-card__badge--gold" data-i18n="rooms.few">1 disponible</span>
             </div>
             <ul class="room-card__features">
-              <li>📐 <span data-i18n="rooms.r3.f1">20 m²</span></li>
+              <li>📐 <span>20 m²</span></li>
               <li>🌊 <span data-i18n="rooms.r3.f2">Vistas al mar</span></li>
               <li>🌿 <span data-i18n="rooms.r3.f3">Terraza privada</span></li>
               <li>🛏️ <span data-i18n="rooms.r3.f4">Cama 135 cm</span></li>
               <li>🚪 <span data-i18n="rooms.r3.f5">Armario empotrado</span></li>
             </ul>
             <div class="room-card__price">
-              <span class="price__amount">350€</span>
+              <span class="price__amount">380€</span>
               <span class="price__period" data-i18n="rooms.month">/ mes</span>
-              <span class="price__extra" data-i18n="rooms.extra">+ 60€ gastos</span>
+              <span class="price__extra" data-i18n="rooms.extra">gastos incluidos</span>
             </div>
             <a href="#contact" class="btn btn--gold btn--block" data-i18n="rooms.cta">Solicitar info</a>
           </div>
         </article>
 
-        <!-- SUITE (x1) -->
+        <!-- SUITE -->
         <article class="room-card room-card--suite">
-          <div class="room-card__image" style="background-image:none;" data-placeholder="room" role="img" aria-label="Habitación Suite"></div>
+          <div class="room-card__image" style="background-image:none;" data-placeholder="room" role="img" aria-label="Suite"></div>
           <div class="room-card__body">
             <div class="room-card__top">
-              <h3 data-i18n="rooms.r4.name">Suite</h3>
+              <h3>Suite 🏆 <span class="room-card__qty">× 1</span></h3>
               <span class="room-card__badge room-card__badge--few" data-i18n="rooms.few">1 disponible</span>
             </div>
             <ul class="room-card__features">
-              <li>📐 <span data-i18n="rooms.r4.f1">25 m² — la más grande</span></li>
+              <li>📐 <span>25 m²</span></li>
               <li>🌊 <span data-i18n="rooms.r4.f2">Vistas al mar</span></li>
               <li>🛏️ <span data-i18n="rooms.r4.f3">Cama 135 cm</span></li>
               <li>🚪 <span data-i18n="rooms.r4.f4">Armario empotrado doble</span></li>
@@ -289,7 +259,7 @@
             <div class="room-card__price">
               <span class="price__amount">400€</span>
               <span class="price__period" data-i18n="rooms.month">/ mes</span>
-              <span class="price__extra" data-i18n="rooms.extra">+ 60€ gastos</span>
+              <span class="price__extra" data-i18n="rooms.extra">gastos incluidos</span>
             </div>
             <a href="#contact" class="btn btn--primary btn--block" data-i18n="rooms.cta">Solicitar info</a>
           </div>
@@ -299,32 +269,56 @@
     </div>
   </section>
 
-  <!-- ===================== SERVICES ===================== -->
+  <!-- ===================== 4. ¿PARA QUIÉN? ===================== -->
+  <section class="forwhom section" id="forwhom">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__label" data-i18n="fw.label">¿Para quién?</p>
+        <div class="gold-divider" style="margin:0 auto 16px;"></div>
+        <h2 class="section__title" data-i18n="fw.title">¿Para quién es Azahar Living?</h2>
+        <p class="section__subtitle" data-i18n="fw.subtitle">Dos perfiles, un mismo espacio de calidad.</p>
+      </div>
+      <div class="forwhom__grid">
+
+        <div class="forwhom-card">
+          <div class="forwhom-card__icon">🎓</div>
+          <h3 data-i18n="fw.s.title">Estudiantes</h3>
+          <p data-i18n="fw.s.desc">Ideal para estudiantes de la UJI, Erasmus, máster y jóvenes que vienen a Castellón a estudiar. Habitación privada, zonas comunes y todo incluido para que solo te preocupes de tus estudios.</p>
+          <ul class="forwhom-card__list">
+            <li data-i18n="fw.s.f1">🎓 Estudiantes UJI</li>
+            <li data-i18n="fw.s.f2">✈️ Erasmus y movilidad internacional</li>
+            <li data-i18n="fw.s.f3">📚 Máster y posgrado</li>
+            <li data-i18n="fw.s.f4">🆕 Primera vez viviendo fuera de casa</li>
+          </ul>
+        </div>
+
+        <div class="forwhom-card forwhom-card--pro">
+          <div class="forwhom-card__icon">💼</div>
+          <h3 data-i18n="fw.p.title">Jóvenes profesionales</h3>
+          <p data-i18n="fw.p.desc">Para personas que empiezan a trabajar en Castellón, profesionales desplazados, trabajadores remotos y jóvenes emprendedores que buscan una base de calidad.</p>
+          <ul class="forwhom-card__list">
+            <li data-i18n="fw.p.f1">💻 Trabajadores remotos y nómadas digitales</li>
+            <li data-i18n="fw.p.f2">📍 Profesionales desplazados a Castellón</li>
+            <li data-i18n="fw.p.f3">🚀 Emprendedores y freelances</li>
+            <li data-i18n="fw.p.f4">🏢 Primeros años de carrera profesional</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== 5. SERVICIOS (TODO INCLUIDO) ===================== -->
   <section class="services section section--alt" id="services">
     <div class="container">
       <div class="section__header">
         <p class="section__label" data-i18n="services.label">Servicios</p>
         <div class="gold-divider" style="margin:0 auto 16px;"></div>
-        <h2 class="section__title" data-i18n="services.title">Todo lo que necesitas incluido</h2>
-        <p class="section__subtitle" data-i18n="services.subtitle">Nos ocupamos de los detalles para que tú te centres en lo que importa.</p>
+        <h2 class="section__title" data-i18n="services.title">Todo incluido en el precio</h2>
+        <p class="section__subtitle" data-i18n="services.subtitle">Un solo pago al mes. Sin sorpresas, sin extras.</p>
       </div>
 
       <div class="services__grid">
-        <div class="service-item">
-          <div class="service-item__icon">🌊</div>
-          <h3 data-i18n="sv.views.title">Vistas al mar y montaña</h3>
-          <p data-i18n="sv.views.desc">Despierta con el Mediterráneo de frente y la sierra de fondo.</p>
-        </div>
-        <div class="service-item">
-          <div class="service-item__icon">☀️</div>
-          <h3 data-i18n="sv.sun.title">Sol todo el día</h3>
-          <p data-i18n="sv.sun.desc">Orientación privilegiada — luz natural de la mañana a la tarde-noche.</p>
-        </div>
-        <div class="service-item">
-          <div class="service-item__icon">🔇</div>
-          <h3 data-i18n="sv.quiet.title">Sin vecinos laterales</h3>
-          <p data-i18n="sv.quiet.desc">Privacidad y silencio total — ideal para el trabajo concentrado.</p>
-        </div>
         <div class="service-item">
           <div class="service-item__icon">🌐</div>
           <h3 data-i18n="sv.wifi.title">WiFi de alta velocidad</h3>
@@ -333,12 +327,32 @@
         <div class="service-item">
           <div class="service-item__icon">💡</div>
           <h3 data-i18n="sv.bills.title">Suministros incluidos</h3>
-          <p data-i18n="sv.bills.desc">Agua, luz y gas cubiertos en el suplemento de 60€ de gastos incluido en el precio total.</p>
+          <p data-i18n="sv.bills.desc">Agua, luz y gas incluidos. Sin facturas, sin preocupaciones.</p>
         </div>
-              <div class="service-item">
+        <div class="service-item">
           <div class="service-item__icon">🧹</div>
           <h3 data-i18n="sv.clean.title">Limpieza semanal</h3>
           <p data-i18n="sv.clean.desc">Limpieza de zonas comunes una vez a la semana incluida.</p>
+        </div>
+        <div class="service-item">
+          <div class="service-item__icon">🍳</div>
+          <h3 data-i18n="sv.kitchen.title">Cocina compartida</h3>
+          <p data-i18n="sv.kitchen.desc">Cocina de 30 m² totalmente equipada para todos los residentes.</p>
+        </div>
+        <div class="service-item">
+          <div class="service-item__icon">📦</div>
+          <h3 data-i18n="sv.laundry.title">Lavandería</h3>
+          <p data-i18n="sv.laundry.desc">Lavadora disponible para todos los residentes.</p>
+        </div>
+        <div class="service-item">
+          <div class="service-item__icon">🧑‍💻</div>
+          <h3 data-i18n="sv.work.title">Espacio de trabajo</h3>
+          <p data-i18n="sv.work.desc">Zonas comunes amplias pensadas para trabajar y estudiar con comodidad.</p>
+        </div>
+        <div class="service-item">
+          <div class="service-item__icon">🌊</div>
+          <h3 data-i18n="sv.views.title">Vistas al mar y montaña</h3>
+          <p data-i18n="sv.views.desc">Ático con vistas inmejorables al Mediterráneo y a la montaña.</p>
         </div>
         <div class="service-item">
           <div class="service-item__icon">🚗</div>
@@ -351,12 +365,12 @@
         <div class="highlight-item">
           <span class="highlight-item__num">240</span>
           <span class="highlight-item__unit">m²</span>
-          <p data-i18n="hl.total">piso completo</p>
+          <p data-i18n="hl.total">ático completo</p>
         </div>
         <div class="highlight-item">
-          <span class="highlight-item__num">10–15</span>
-          <span class="highlight-item__unit">m²</span>
-          <p data-i18n="hl.rooms">por habitación</p>
+          <span class="highlight-item__num">7</span>
+          <span class="highlight-item__unit">🏠</span>
+          <p data-i18n="hl.rooms">habitaciones privadas</p>
         </div>
         <div class="highlight-item">
           <span class="highlight-item__num">30</span>
@@ -364,132 +378,22 @@
           <p data-i18n="hl.kitchen">cocina</p>
         </div>
         <div class="highlight-item">
-          <span class="highlight-item__num">9ª</span>
-          <span class="highlight-item__unit">🌊🏔️</span>
-          <p data-i18n="hl.views">planta con vistas</p>
+          <span class="highlight-item__num">3</span>
+          <span class="highlight-item__unit">🚿</span>
+          <p data-i18n="hl.baths">baños</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ===================== PRICING ===================== -->
-  <section class="pricing section" id="pricing">
-    <div class="container">
-      <div class="section__header">
-        <p class="section__label" data-i18n="pricing.label">Precios</p>
-        <div class="gold-divider" style="margin:0 auto 16px;"></div>
-        <h2 class="section__title" data-i18n="pricing.title">Transparente y sin sorpresas</h2>
-        <p class="section__subtitle" data-i18n="pricing.subtitle">Precio fijo mensual. Sin letra pequeña.</p>
-      </div>
-
-      <div class="pricing__grid pricing__grid--4">
-
-        <!-- ESTÁNDAR -->
-        <div class="pricing-card">
-          <div class="pricing-card__units" data-i18n="pricing.p1.units">3 habitaciones</div>
-          <div class="pricing-card__header">
-            <h3 data-i18n="pricing.p1.name">Standard</h3>
-            <p class="pricing-card__sub" data-i18n="pricing.p1.sub">15 m² · Vistas montaña</p>
-            <div class="pricing-card__price">
-              <span class="price__amount">330€</span>
-              <span class="price__period" data-i18n="pricing.month">/ mes</span>
-            </div>
-          </div>
-          <ul class="pricing-card__list">
-            <li>✅ <span data-i18n="pricing.f1">Habitación 15 m²</span></li>
-            <li>✅ <span data-i18n="pricing.f2">Vistas a la montaña</span></li>
-            <li>✅ <span data-i18n="pricing.f3">Armario empotrado</span></li>
-            <li>✅ <span data-i18n="pricing.f4">WiFi alta velocidad</span></li>
-            <li>✅ <span data-i18n="pricing.f5">Cocina 30 m² compartida</span></li>
-            <li>✅ <span data-i18n="pricing.f6">Lavandería</span></li>
-          </ul>
-          <a href="#contact" class="btn btn--outline btn--block" data-i18n="pricing.cta">Solicitar plaza</a>
-        </div>
-
-        <!-- PREMIUM -->
-        <div class="pricing-card pricing-card--featured">
-          <div class="pricing-card__badge" data-i18n="pricing.best">Más popular</div>
-          <div class="pricing-card__units" data-i18n="pricing.p2.units">2 habitaciones</div>
-          <div class="pricing-card__header">
-            <h3 data-i18n="pricing.p2.name">Premium ⭐</h3>
-            <p class="pricing-card__sub" data-i18n="pricing.p2.sub">20 m² · Vistas al mar</p>
-            <div class="pricing-card__price">
-              <span class="price__amount">350€</span>
-              <span class="price__period" data-i18n="pricing.month">/ mes</span>
-            </div>
-          </div>
-          <ul class="pricing-card__list">
-            <li>✅ <span data-i18n="pricing.g1">Habitación 20 m²</span></li>
-            <li>✅ <span data-i18n="pricing.g2">Vistas al mar Mediterráneo</span></li>
-            <li>✅ <span data-i18n="pricing.g3">Armario empotrado grande</span></li>
-            <li>✅ <span data-i18n="pricing.g4">WiFi alta velocidad</span></li>
-            <li>✅ <span data-i18n="pricing.g5">Cocina 30 m² compartida</span></li>
-            <li>✅ <span data-i18n="pricing.g6">Lavandería</span></li>
-          </ul>
-          <a href="#contact" class="btn btn--primary btn--block" data-i18n="pricing.cta">Solicitar plaza</a>
-        </div>
-
-        <!-- PREMIUM BALCONY -->
-        <div class="pricing-card pricing-card--gold">
-          <div class="pricing-card__badge pricing-card__badge--gold" data-i18n="pricing.exclusive">Exclusiva</div>
-          <div class="pricing-card__units" data-i18n="pricing.p3.units">1 habitación</div>
-          <div class="pricing-card__header">
-            <h3 data-i18n="pricing.p3.name">Premium con Terraza 🌿</h3>
-            <p class="pricing-card__sub" data-i18n="pricing.p3.sub">20 m² · Mar + Terraza privada</p>
-            <div class="pricing-card__price">
-              <span class="price__amount">380€</span>
-              <span class="price__period" data-i18n="pricing.month">/ mes</span>
-            </div>
-          </div>
-          <ul class="pricing-card__list">
-            <li>✅ <span data-i18n="pricing.h1">Habitación 20 m²</span></li>
-            <li>✅ <span data-i18n="pricing.h2">Vistas al mar Mediterráneo</span></li>
-            <li>🌿 <span data-i18n="pricing.h3">Terraza privada exclusiva</span></li>
-            <li>✅ <span data-i18n="pricing.h4">Armario empotrado</span></li>
-            <li>✅ <span data-i18n="pricing.h5">WiFi alta velocidad</span></li>
-            <li>✅ <span data-i18n="pricing.h6">Cocina y lavandería</span></li>
-          </ul>
-          <a href="#contact" class="btn btn--gold btn--block" data-i18n="pricing.cta">Solicitar plaza</a>
-        </div>
-
-        <!-- SUITE -->
-        <div class="pricing-card">
-          <div class="pricing-card__units" data-i18n="pricing.p4.units">1 habitación</div>
-          <div class="pricing-card__header">
-            <h3 data-i18n="pricing.p4.name">Suite 🏆</h3>
-            <p class="pricing-card__sub" data-i18n="pricing.p4.sub">25 m² · Vistas al mar</p>
-            <div class="pricing-card__price">
-              <span class="price__amount">400€</span>
-              <span class="price__period" data-i18n="pricing.month">/ mes</span>
-            </div>
-          </div>
-          <ul class="pricing-card__list">
-            <li>✅ <span data-i18n="pricing.i1">Habitación 25 m² — la mayor</span></li>
-            <li>✅ <span data-i18n="pricing.i2">Vistas al mar Mediterráneo</span></li>
-            <li>✅ <span data-i18n="pricing.i3">Cama 135 cm</span></li>
-            <li>✅ <span data-i18n="pricing.i4">Armario empotrado doble</span></li>
-            <li>✅ <span data-i18n="pricing.i5">Zona de trabajo independiente</span></li>
-            <li>✅ <span data-i18n="pricing.i6">Todos los servicios</span></li>
-          </ul>
-          <a href="#contact" class="btn btn--outline btn--block" data-i18n="pricing.cta">Solicitar plaza</a>
-        </div>
-
-      </div>
-
-      <div class="pricing__note">
-        <p data-i18n="pricing.note">💬 Precios mensuales. +60€/mes cubre agua, luz y gas. Estancia mínima 6 meses. 7 habitaciones en total — plazas limitadas.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===================== LOCATION ===================== -->
-  <section class="location section section--alt" id="location">
+  <!-- ===================== 6. VIVIR EN CASTELLÓN ===================== -->
+  <section class="location section" id="location">
     <div class="container location__grid">
       <div class="location__text">
-        <p class="section__label" data-i18n="loc.label">Ubicación</p>
+        <p class="section__label" data-i18n="loc.label">Vivir en Castellón</p>
         <div class="gold-divider"></div>
-        <h2 class="section__title" data-i18n="loc.title">En el corazón de Castellón</h2>
-        <p data-i18n="loc.desc">Castellón de la Plana te ofrece una calidad de vida difícil de igualar: playas a 5 km, una ciudad vibrante con todo tipo de servicios, y un coste de vida muy por debajo de Madrid o Barcelona.</p>
+        <h2 class="section__title" data-i18n="loc.title">¿Por qué vivir en Castellón?</h2>
+        <p data-i18n="loc.desc">Castellón de la Plana ofrece una calidad de vida difícil de igualar: playas a 5 km, ciudad vibrante con todos los servicios, y un coste de vida muy por debajo de Madrid o Barcelona.</p>
         <div class="location__facts">
           <div class="loc-fact">
             <span class="loc-fact__icon">🏖️</span>
@@ -499,17 +403,17 @@
             </div>
           </div>
           <div class="loc-fact">
-            <span class="loc-fact__icon">🚆</span>
+            <span class="loc-fact__icon">🎓</span>
             <div>
-              <strong data-i18n="loc.f2.title">AVE a Valencia</strong>
-              <p data-i18n="loc.f2.desc">30 minutos en tren</p>
+              <strong data-i18n="loc.f2.title">Universidad UJI</strong>
+              <p data-i18n="loc.f2.desc">Campus a 15 minutos</p>
             </div>
           </div>
           <div class="loc-fact">
-            <span class="loc-fact__icon">✈️</span>
+            <span class="loc-fact__icon">🚆</span>
             <div>
-              <strong data-i18n="loc.f3.title">Aeropuerto</strong>
-              <p data-i18n="loc.f3.desc">Castellón y Valencia (60 min)</p>
+              <strong data-i18n="loc.f3.title">Valencia en tren</strong>
+              <p data-i18n="loc.f3.desc">30 minutos en tren</p>
             </div>
           </div>
           <div class="loc-fact">
@@ -532,21 +436,18 @@
           loading="lazy"
           referrerpolicy="strict-origin-when-cross-origin">
         </iframe>
-          width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
       </div>
     </div>
   </section>
 
-  <!-- ===================== CONTACT ===================== -->
-  <section class="contact section" id="contact">
+  <!-- ===================== 7. RESERVA ===================== -->
+  <section class="contact section section--alt" id="contact">
     <div class="container contact__grid">
       <div class="contact__info">
-        <p class="section__label" data-i18n="contact.label">Contacto</p>
+        <p class="section__label" data-i18n="contact.label">Reserva</p>
         <div class="gold-divider"></div>
-        <h2 class="section__title" data-i18n="contact.title">¿Listo para mudarte?</h2>
-        <p data-i18n="contact.desc">¿Eres profesional, nómada digital o emprendedor y buscas algo diferente en Castellón? Escríbenos — te respondemos en menos de 24 horas.</p>
+        <h2 class="section__title" data-i18n="contact.title">Reserva tu habitación</h2>
+        <p data-i18n="contact.desc">¿Eres estudiante, profesional o nómada digital y buscas habitación en Castellón? Escríbenos — te respondemos en menos de 24 horas.</p>
         <div class="contact__details">
           <a href="mailto:azaharliving@gmail.com" class="contact__link">
             <span>📧</span> azaharliving@gmail.com
@@ -555,38 +456,28 @@
             <span>💬</span> WhatsApp
           </a>
           <p class="contact__link">
-            <span>📍</span> Avenida Rey Don Jaime, Castellón de la Plana
+            <span>📍</span> Av. Rei en Jaume 92, 12001 Castellón de la Plana
           </p>
         </div>
       </div>
 
       <form class="contact__form" id="contactForm" novalidate>
-
-        <!-- Nombre -->
         <div class="form-group">
           <label for="name" data-i18n="form.name">Nombre completo</label>
           <input type="text" id="name" name="name" placeholder="Ana García" required autocomplete="name" />
         </div>
-
-        <!-- Edad -->
         <div class="form-group">
           <label for="age" data-i18n="form.age">Edad</label>
-          <input type="number" id="age" name="age" placeholder="28" min="18" max="60" />
+          <input type="number" id="age" name="age" placeholder="22" min="18" max="60" />
         </div>
-
-        <!-- Email -->
         <div class="form-group">
           <label for="email" data-i18n="form.email">Correo electrónico</label>
           <input type="email" id="email" name="email" placeholder="ana@email.com" required autocomplete="email" />
         </div>
-
-        <!-- Profesión -->
         <div class="form-group">
           <label for="job" data-i18n="form.job">¿A qué te dedicas?</label>
-          <input type="text" id="job" name="job" placeholder="Diseñadora, desarrollador, freelance..." />
+          <input type="text" id="job" name="job" placeholder="Estudiante UJI, diseñadora, desarrollador..." />
         </div>
-
-        <!-- Habitación -->
         <div class="form-group">
           <label for="room" data-i18n="form.room">Habitación de interés</label>
           <select id="room" name="room">
@@ -598,8 +489,6 @@
             <option value="waitlist" data-i18n="form.roomWait">Lista de espera — cualquier habitación</option>
           </select>
         </div>
-
-        <!-- Duración estancia -->
         <div class="form-group">
           <label for="duration" data-i18n="form.duration">Duración estimada de estancia</label>
           <select id="duration" name="duration">
@@ -609,19 +498,14 @@
             <option value="more" data-i18n="form.durMore">Más de 1 año</option>
           </select>
         </div>
-
-        <!-- Fecha de entrada -->
         <div class="form-group">
           <label for="date" data-i18n="form.date">Fecha de entrada deseada</label>
           <input type="date" id="date" name="date" />
         </div>
-
-        <!-- Mensaje -->
         <div class="form-group">
           <label for="message" data-i18n="form.message">Cuéntanos algo sobre ti (opcional)</label>
           <textarea id="message" name="message" rows="4" placeholder="De dónde vienes, a qué te dedicas, qué buscas..."></textarea>
         </div>
-
         <button type="submit" class="btn btn--primary btn--block" data-i18n="form.submit">Enviar solicitud</button>
         <p class="form__waitlist-note" data-i18n="form.waitlistNote">💬 Si todas las plazas están ocupadas, te añadimos a la lista de espera y te avisamos en cuanto haya disponibilidad.</p>
         <p class="form__success" id="formSuccess" aria-live="polite" data-i18n="form.success">¡Mensaje enviado! Te contactamos pronto. 🌸</p>
@@ -634,30 +518,31 @@
     <div class="container footer__inner">
       <div class="footer__brand">
         <a href="#hero" class="navbar__logo" aria-label="Azahar Living">
-          <img src="images/Logo Coliving.png" alt="Azahar Living" class="navbar__logo-img footer__logo-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+          <img src="images/Logo Coliving.png" alt="Azahar Living" class="navbar__logo-img footer__logo-img"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
           <span class="navbar__logo-text" style="display:none;">
             <span class="logo-azahar">Azahar</span><span class="logo-living">Living</span>
           </span>
         </a>
         <div class="footer__gold-line"></div>
-        <p class="footer__sub">Professional Coliving · Castellón</p>
+        <p class="footer__sub">Habitaciones en Castellón · Estudiantes y profesionales</p>
         <p class="footer__tagline" data-i18n="footer.tagline">More than a place.</p>
       </div>
       <div class="footer__links">
         <h4 data-i18n="footer.nav">Navegación</h4>
         <ul>
-          <li><a href="#about"    data-i18n="nav.about">Nosotros</a></li>
-          <li><a href="#gallery"  data-i18n="nav.gallery">El Espacio</a></li>
+          <li><a href="#why"      data-i18n="nav.why">Por qué elegirnos</a></li>
           <li><a href="#rooms"    data-i18n="nav.rooms">Habitaciones</a></li>
+          <li><a href="#forwhom"  data-i18n="nav.forwhom">¿Para quién?</a></li>
           <li><a href="#services" data-i18n="nav.services">Servicios</a></li>
-          <li><a href="#pricing"  data-i18n="nav.pricing">Precios</a></li>
-          <li><a href="#contact"  data-i18n="nav.contact">Contacto</a></li>
+          <li><a href="#location" data-i18n="nav.location">Vivir en Castellón</a></li>
+          <li><a href="#contact"  data-i18n="nav.contact">Reserva</a></li>
         </ul>
       </div>
       <div class="footer__contact">
         <h4 data-i18n="footer.contactTitle">Contacto</h4>
         <p>📧 azaharliving@gmail.com</p>
-        <p>📍 Avenida Rey Don Jaime, Castellón de la Plana</p>
+        <p>📍 Av. Rei en Jaume 92, Castellón</p>
         <p>💬 WhatsApp disponible</p>
       </div>
     </div>

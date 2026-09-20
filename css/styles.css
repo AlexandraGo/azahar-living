@@ -1598,3 +1598,99 @@ button { cursor: pointer; font-family: inherit; }
   color: var(--clr-gold);
   font-style: italic;
 }
+
+/* ============================================================
+   HERO PILLS
+   ============================================================ */
+.hero__pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 32px;
+}
+.hero__pill {
+  background: rgba(255,255,255,.15);
+  border: 1px solid rgba(255,255,255,.3);
+  color: var(--clr-white);
+  border-radius: var(--radius-full);
+  padding: 6px 16px;
+  font-size: .82rem;
+  font-weight: 500;
+  backdrop-filter: blur(6px);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* ============================================================
+   WHY SECTION
+   ============================================================ */
+.why__grid {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 64px;
+  align-items: center;
+}
+.why__pillars {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+@media (max-width: 768px) {
+  .why__grid { grid-template-columns: 1fr; gap: 40px; }
+}
+
+/* ============================================================
+   FOR WHOM SECTION
+   ============================================================ */
+.forwhom__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+.forwhom-card {
+  background: var(--clr-white);
+  border: 1px solid var(--clr-border);
+  border-radius: var(--radius-lg);
+  padding: 40px 36px;
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+.forwhom-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+.forwhom-card--pro {
+  border-color: var(--clr-primary);
+  box-shadow: 0 0 0 1.5px var(--clr-primary);
+}
+.forwhom-card__icon {
+  font-size: 2.8rem;
+  margin-bottom: 16px;
+  display: block;
+}
+.forwhom-card h3 {
+  font-family: var(--font-serif);
+  font-size: 1.4rem;
+  color: var(--clr-dark);
+  margin-bottom: 12px;
+}
+.forwhom-card p {
+  color: var(--clr-text-muted);
+  margin-bottom: 20px;
+  line-height: 1.7;
+}
+.forwhom-card__list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.forwhom-card__list li {
+  font-size: .9rem;
+  color: var(--clr-text);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+@media (max-width: 768px) {
+  .forwhom__grid { grid-template-columns: 1fr; }
+}
