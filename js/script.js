@@ -24,7 +24,7 @@ const translations = {
     'hero.subtitle':'Habitaciones privadas en alquiler en Castellón de la Plana, en un coliving moderno con zonas comunes, WiFi de alta velocidad, cocina compartida, lavandería y gastos incluidos.',
     'hero.cta1':    'Ver habitaciones',
     'hero.cta2':    'Reservar plaza',
-    'hero.stat1':   'desde / mes',
+    'hero.stat1':   'todo incluido / mes',
     'hero.stat2':   '240 m² exclusivos',
     'hero.stat3':   'mar y montaña',
 
@@ -50,7 +50,7 @@ const translations = {
     'rooms.exclusive':   'Exclusiva',
     'rooms.few':         '1 disponible',
     'rooms.month':       '/ mes',
-    'rooms.extra':       '+ 60€ gastos',
+    'rooms.extra':       'gastos incluidos',
     'rooms.cta':         'Solicitar info',
     /* Estándar x3 */
     'rooms.r1.count':    '× 3 unidades',
@@ -123,7 +123,7 @@ const translations = {
     'pricing.best':      'Más popular',
     'pricing.exclusive': 'Exclusiva',
     'pricing.cta':       'Solicitar plaza',
-    'pricing.extra':     '+ 60€ gastos',
+    'pricing.extra':     'gastos incluidos',
     'pricing.note':      '💬 Precios mensuales. +60€/mes cubre agua, luz y gas. Estancia mínima 1 mes. 7 habitaciones en total — plazas limitadas.',
     /* Estándar */
     'pricing.p1.name':   'Estándar',
@@ -165,6 +165,11 @@ const translations = {
     'pricing.i4': 'Armario empotrado doble',
     'pricing.i5': 'Zona de trabajo independiente',
     'pricing.i6': 'Todos los servicios',
+
+    'sv.clean.title':    'Limpieza semanal',
+    'sv.clean.desc':     'Limpieza de zonas comunes una vez a la semana incluida.',
+    'sv.parking.title':  'Parking',
+    'sv.parking.desc':   'Plaza de parking disponible. Consultar precio y disponibilidad.',
 
     /* Location */
     'loc.label':     'Ubicación',
@@ -219,7 +224,7 @@ const translations = {
     'hero.subtitle':'Private rooms for rent in Castellón de la Plana, in a modern coliving with shared areas, high-speed WiFi, shared kitchen, laundry and bills included.',
     'hero.cta1':    'See rooms',
     'hero.cta2':    'Book a spot',
-    'hero.stat1':   'from / month',
+    'hero.stat1':   'all inclusive / month',
     'hero.stat2':   '240 m² exclusive',
     'hero.stat3':   'sea & mountain',
 
@@ -245,7 +250,7 @@ const translations = {
     'rooms.exclusive':   'Exclusive',
     'rooms.few':         '1 available',
     'rooms.month':       '/ month',
-    'rooms.extra':       '+ €60 utilities',
+    'rooms.extra':       'all inclusive',
     'rooms.cta':         'Request info',
     /* Standard x3 */
     'rooms.r1.count':    '× 3 units',
@@ -318,7 +323,7 @@ const translations = {
     'pricing.best':    'Best value',
     'pricing.cta':     'Request a spot',
     'pricing.extra':   '+ €60 utilities (water, electricity, gas)',
-    'pricing.note':    '💬 Prices are monthly. The €60 supplement covers water, electricity and gas. Minimum stay: 6 months.',
+    'pricing.note':    '💬 Total monthly price with all bills included (water, electricity, gas and WiFi). Minimum stay: 6 months. 7 rooms — limited availability.',
     'pricing.p1.name': 'Standard',
     'pricing.p2.name': 'Premium',
     'pricing.p3.name': 'Suite',
@@ -339,6 +344,16 @@ const translations = {
     'pricing.h4': 'Independent work area',
     'pricing.h5': 'Maximum privacy & silence',
     'pricing.h6': 'All services included',
+
+    'sv.clean.title':    'Limpieza semanal',
+    'sv.clean.desc':     'Limpieza de zonas comunes una vez a la semana incluida.',
+    'sv.parking.title':  'Parking',
+    'sv.parking.desc':   'Plaza de parking disponible. Consultar precio y disponibilidad.',
+
+    'sv.clean.title':    'Weekly cleaning',
+    'sv.clean.desc':     'Common areas cleaned once a week, included.',
+    'sv.parking.title':  'Parking',
+    'sv.parking.desc':   'Parking space available. Ask for price and availability.',
 
     /* Location */
     'loc.label':    'Location',

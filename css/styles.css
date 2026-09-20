@@ -1575,3 +1575,26 @@ button { cursor: pointer; font-family: inherit; }
   border-left: 3px solid var(--clr-primary);
   display: block;
 }
+
+/* ── Room card placeholder ── */
+.room-card__image[data-placeholder="room"] {
+  background: var(--clr-bg-alt);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: var(--clr-text-muted);
+  font-size: .82rem;
+  letter-spacing: .04em;
+}
+.room-card__image[data-placeholder="room"]::before {
+  content: '📷';
+  font-size: 2rem;
+}
+.room-card__image[data-placeholder="room"]::after {
+  content: 'Foto próximamente';
+  font-size: .78rem;
+  color: var(--clr-gold);
+  font-style: italic;
+}
