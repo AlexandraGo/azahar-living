@@ -21,7 +21,7 @@ const translations = {
     /* Hero */
     'hero.eyebrow': 'Azahar Living · Ático Premium · Castellón de la Plana',
     'hero.title':   'Habitaciones en Castellón<br>para estudiantes y jóvenes profesionales',
-    'hero.subtitle':'Habitaciones privadas en alquiler en Castellón de la Plana, en un coliving moderno con zonas comunes, WiFi de alta velocidad, cocina compartida, lavandería y gastos incluidos.',
+    'hero.subtitle':'Tu habitación privada en Castellón, con todo lo que necesitas para vivir, estudiar y trabajar.',
     'hero.cta1':    'Ver habitaciones',
     'hero.cta2':    'Reservar plaza',
     'hero.stat1':   'todo incluido / mes',
@@ -44,7 +44,7 @@ const translations = {
     /* Rooms */
     'rooms.label':       'Habitaciones',
     'rooms.title':       'Espacios diseñados para ti',
-    'rooms.subtitle':    '7 habitaciones, 4 tipologías. Elige la tuya.',
+    'rooms.subtitle':    '7 habitaciones privadas en Castellón. Cuatro categorías para adaptarse a tu espacio y presupuesto.',
     'rooms.available':   'Disponible',
     'rooms.popular':     'Más popular',
     'rooms.exclusive':   'Exclusiva',
@@ -54,7 +54,7 @@ const translations = {
     'rooms.cta':         'Solicitar info',
     /* Estándar x3 */
     'rooms.r1.count':    '× 3 unidades',
-    'rooms.r1.name':     'Estándar',
+    'rooms.r1.name':     'Standard',
     'rooms.r1.f1':       '15 m²',
     'rooms.r1.f2':       'Vistas a la montaña',
     'rooms.r1.f3':       'Cama doble',
@@ -62,7 +62,7 @@ const translations = {
     'rooms.r1.f5':       'WiFi alta velocidad',
     /* Premium x2 */
     'rooms.r2.count':    '× 2 unidades',
-    'rooms.r2.name':     'Premium',
+    'rooms.r2.name':     'Premium ⭐',
     'rooms.r2.f1':       '20 m²',
     'rooms.r2.f2':       'Vistas al mar',
     'rooms.r2.f3':       'Cama doble grande',
@@ -70,7 +70,7 @@ const translations = {
     'rooms.r2.f5':       'WiFi alta velocidad',
     /* Premium Balcony x1 */
     'rooms.r3.count':    '× 1 unidad',
-    'rooms.r3.name':     'Premium Balcony',
+    'rooms.r3.name':     'Premium con Terraza 🌿',
     'rooms.r3.f1':       '20 m²',
     'rooms.r3.f2':       'Vistas al mar',
     'rooms.r3.f3':       'Terraza privada',
@@ -78,7 +78,7 @@ const translations = {
     'rooms.r3.f5':       'Armario empotrado',
     /* Suite x1 */
     'rooms.r4.count':    '× 1 unidad',
-    'rooms.r4.name':     'Suite',
+    'rooms.r4.name':     'Suite 🏆',
     'rooms.r4.f1':       '25 m² — la más grande',
     'rooms.r4.f2':       'Vistas al mar',
     'rooms.r4.f3':       'Cama king size',
@@ -126,7 +126,7 @@ const translations = {
     'pricing.extra':     'gastos incluidos',
     'pricing.note':      '💬 Precios mensuales. +60€/mes cubre agua, luz y gas. Estancia mínima 1 mes. 7 habitaciones en total — plazas limitadas.',
     /* Estándar */
-    'pricing.p1.name':   'Estándar',
+    'pricing.p1.name':   'Standard',
     'pricing.p1.sub':    '15 m² · Vistas montaña',
     'pricing.p1.units':  '3 habitaciones',
     'pricing.f1': 'Habitación 15 m²',
@@ -136,7 +136,7 @@ const translations = {
     'pricing.f5': 'Cocina 30 m² compartida',
     'pricing.f6': 'Lavandería',
     /* Premium */
-    'pricing.p2.name':   'Premium',
+    'pricing.p2.name':   'Premium ⭐',
     'pricing.p2.sub':    '20 m² · Vistas al mar',
     'pricing.p2.units':  '2 habitaciones',
     'pricing.g1': 'Habitación 20 m²',
@@ -146,7 +146,7 @@ const translations = {
     'pricing.g5': 'Cocina 30 m² compartida',
     'pricing.g6': 'Lavandería',
     /* Premium Balcony */
-    'pricing.p3.name':   'Premium Balcony',
+    'pricing.p3.name':   'Premium con Terraza 🌿',
     'pricing.p3.sub':    '20 m² · Vistas al mar · Terraza',
     'pricing.p3.units':  '1 habitación',
     'pricing.h1': 'Habitación 20 m²',
@@ -156,7 +156,7 @@ const translations = {
     'pricing.h5': 'WiFi alta velocidad',
     'pricing.h6': 'Cocina y lavandería',
     /* Suite */
-    'pricing.p4.name':   'Suite',
+    'pricing.p4.name':   'Suite 🏆',
     'pricing.p4.sub':    '25 m² · Vistas al mar',
     'pricing.p4.units':  '1 habitación',
     'pricing.i1': 'Room 25 m² — the largest',
@@ -192,9 +192,9 @@ const translations = {
     'form.email':    'Correo electrónico',
     'form.room':     'Habitación de interés',
     'form.roomSelect':'Selecciona una opción',
-    'form.roomStd':  'Estándar (270€/mes)',
-    'form.roomPrem': 'Premium (320€/mes)',
-    'form.roomSuite':'Suite (370€/mes)',
+    'form.roomStd':  'Standard · 330€/mes',
+    'form.roomPrem': 'Premium ⭐ · 350€/mes',
+    'form.roomSuite':'Suite 🏆 · 400€/mes',
     'form.date':     'Fecha de entrada deseada',
     'form.message':  'Mensaje (opcional)',
     'form.submit':   'Enviar solicitud',
@@ -221,7 +221,7 @@ const translations = {
     /* Hero */
     'hero.eyebrow': 'Azahar Living · Premium Penthouse · Castellón de la Plana',
     'hero.title':   'Rooms in Castellón<br>for students and young professionals',
-    'hero.subtitle':'Private rooms for rent in Castellón de la Plana, in a modern coliving with shared areas, high-speed WiFi, shared kitchen, laundry and bills included.',
+    'hero.subtitle':'Your private room in Castellón, with everything you need to live, study and work.',
     'hero.cta1':    'See rooms',
     'hero.cta2':    'Book a spot',
     'hero.stat1':   'all inclusive / month',
@@ -244,7 +244,7 @@ const translations = {
     /* Rooms */
     'rooms.label':       'Rooms',
     'rooms.title':       'Spaces designed for you',
-    'rooms.subtitle':    '7 rooms across 4 types. Find yours.',
+    'rooms.subtitle':    '7 private rooms in Castellón. Four categories to match your space and budget.',
     'rooms.available':   'Available',
     'rooms.popular':     'Most popular',
     'rooms.exclusive':   'Exclusive',
@@ -262,7 +262,7 @@ const translations = {
     'rooms.r1.f5':       'High-speed WiFi',
     /* Premium x2 */
     'rooms.r2.count':    '× 2 units',
-    'rooms.r2.name':     'Premium',
+    'rooms.r2.name':     'Premium ⭐',
     'rooms.r2.f1':       '20 m²',
     'rooms.r2.f2':       'Sea views',
     'rooms.r2.f3':       'Large double bed',
@@ -270,7 +270,7 @@ const translations = {
     'rooms.r2.f5':       'High-speed WiFi',
     /* Premium Balcony x1 */
     'rooms.r3.count':    '× 1 unit',
-    'rooms.r3.name':     'Premium Balcony',
+    'rooms.r3.name':     'Premium con Terraza 🌿',
     'rooms.r3.f1':       '20 m²',
     'rooms.r3.f2':       'Sea views',
     'rooms.r3.f3':       'Private terrace',
@@ -278,7 +278,7 @@ const translations = {
     'rooms.r3.f5':       'Built-in wardrobe',
     /* Suite x1 */
     'rooms.r4.count':    '× 1 unit',
-    'rooms.r4.name':     'Suite',
+    'rooms.r4.name':     'Suite 🏆',
     'rooms.r4.f1':       '25 m² — the largest',
     'rooms.r4.f2':       'Sea views',
     'rooms.r4.f3':       'King size bed',
@@ -376,8 +376,8 @@ const translations = {
     'form.email':    'Email address',
     'form.room':     'Room of interest',
     'form.roomSelect':'Select an option',
-    'form.roomStd':  'Standard (€270/month)',
-    'form.roomPrem': 'Premium (€320/month)',
+    'form.roomStd':  'Standard · €330/month',
+    'form.roomPrem': 'Premium ⭐ · €350/month',
     'form.roomSuite':'Suite (€370/month)',
     'form.date':     'Desired move-in date',
     'form.message':  'Message (optional)',
