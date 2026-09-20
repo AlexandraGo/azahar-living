@@ -549,8 +549,8 @@
         <h2 class="section__title" data-i18n="contact.title">¿Listo para mudarte?</h2>
         <p data-i18n="contact.desc">¿Eres profesional, nómada digital o emprendedor y buscas algo diferente en Castellón? Escríbenos — te respondemos en menos de 24 horas.</p>
         <div class="contact__details">
-          <a href="mailto:hola@azaharliving.es" class="contact__link">
-            <span>📧</span> hola@azaharliving.es
+          <a href="mailto:azaharliving@gmail.com" class="contact__link">
+            <span>📧</span> azaharliving@gmail.com
           </a>
           <a href="https://wa.me/34600000000" class="contact__link" target="_blank" rel="noopener noreferrer">
             <span>💬</span> WhatsApp
@@ -562,32 +562,69 @@
       </div>
 
       <form class="contact__form" id="contactForm" novalidate>
+
+        <!-- Nombre -->
         <div class="form-group">
           <label for="name" data-i18n="form.name">Nombre completo</label>
           <input type="text" id="name" name="name" placeholder="Ana García" required autocomplete="name" />
         </div>
+
+        <!-- Edad -->
+        <div class="form-group">
+          <label for="age" data-i18n="form.age">Edad</label>
+          <input type="number" id="age" name="age" placeholder="28" min="18" max="60" />
+        </div>
+
+        <!-- Email -->
         <div class="form-group">
           <label for="email" data-i18n="form.email">Correo electrónico</label>
           <input type="email" id="email" name="email" placeholder="ana@email.com" required autocomplete="email" />
         </div>
+
+        <!-- Profesión -->
+        <div class="form-group">
+          <label for="job" data-i18n="form.job">¿A qué te dedicas?</label>
+          <input type="text" id="job" name="job" placeholder="Diseñadora, desarrollador, freelance..." />
+        </div>
+
+        <!-- Habitación -->
         <div class="form-group">
           <label for="room" data-i18n="form.room">Habitación de interés</label>
           <select id="room" name="room">
             <option value="" data-i18n="form.roomSelect">Selecciona una opción</option>
-            <option value="standard" data-i18n="form.roomStd">Estándar (300€/mes)</option>
-            <option value="premium" data-i18n="form.roomPrem">Premium (350€/mes)</option>
-            <option value="suite" data-i18n="form.roomSuite">Suite (400€/mes)</option>
+            <option value="standard" data-i18n="form.roomStd">Estándar · 15 m² · Montaña (270€/mes)</option>
+            <option value="premium" data-i18n="form.roomPrem">Premium · 20 m² · Mar (320€/mes)</option>
+            <option value="balcony" data-i18n="form.roomBalc">Premium Balcony · 20 m² · Mar + Terraza (350€/mes)</option>
+            <option value="suite" data-i18n="form.roomSuite">Suite · 25 m² · Mar (370€/mes)</option>
+            <option value="waitlist" data-i18n="form.roomWait">Lista de espera — cualquier habitación</option>
           </select>
         </div>
+
+        <!-- Duración estancia -->
+        <div class="form-group">
+          <label for="duration" data-i18n="form.duration">Duración estimada de estancia</label>
+          <select id="duration" name="duration">
+            <option value="" data-i18n="form.durationSelect">Selecciona una opción</option>
+            <option value="6m" data-i18n="form.dur6">6 meses</option>
+            <option value="12m" data-i18n="form.dur12">1 año</option>
+            <option value="more" data-i18n="form.durMore">Más de 1 año</option>
+          </select>
+        </div>
+
+        <!-- Fecha de entrada -->
         <div class="form-group">
           <label for="date" data-i18n="form.date">Fecha de entrada deseada</label>
           <input type="date" id="date" name="date" />
         </div>
+
+        <!-- Mensaje -->
         <div class="form-group">
-          <label for="message" data-i18n="form.message">Mensaje (opcional)</label>
-          <textarea id="message" name="message" rows="4" placeholder="Cuéntanos algo sobre ti..."></textarea>
+          <label for="message" data-i18n="form.message">Cuéntanos algo sobre ti (opcional)</label>
+          <textarea id="message" name="message" rows="4" placeholder="De dónde vienes, a qué te dedicas, qué buscas..."></textarea>
         </div>
+
         <button type="submit" class="btn btn--primary btn--block" data-i18n="form.submit">Enviar solicitud</button>
+        <p class="form__waitlist-note" data-i18n="form.waitlistNote">💬 Si todas las plazas están ocupadas, te añadimos a la lista de espera y te avisamos en cuanto haya disponibilidad.</p>
         <p class="form__success" id="formSuccess" aria-live="polite" data-i18n="form.success">¡Mensaje enviado! Te contactamos pronto. 🌸</p>
       </form>
     </div>
@@ -620,7 +657,7 @@
       </div>
       <div class="footer__contact">
         <h4 data-i18n="footer.contactTitle">Contacto</h4>
-        <p>📧 hola@azaharliving.es</p>
+        <p>📧 azaharliving@gmail.com</p>
         <p>📍 Avenida Rey Don Jaime, Castellón de la Plana</p>
         <p>💬 WhatsApp disponible</p>
       </div>

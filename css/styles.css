@@ -1563,3 +1563,15 @@ button { cursor: pointer; font-family: inherit; }
   filter: brightness(0) invert(1) !important;
   opacity: .85;
 }
+
+/* ── Nota lista de espera en formulario ── */
+.form__waitlist-note {
+  margin-top: 12px;
+  font-size: .82rem;
+  color: var(--clr-text-muted);
+  background: var(--clr-primary-lt);
+  border-radius: var(--radius-sm);
+  padding: 10px 14px;
+  border-left: 3px solid var(--clr-primary);
+  display: block;
+}
