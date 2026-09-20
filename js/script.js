@@ -19,9 +19,9 @@ const translations = {
     'nav.cta':      'Reservar',
 
     /* Hero */
-    'hero.eyebrow': 'Ático · Professional Coliving · Castellón de la Plana',
-    'hero.title':   'Ático con vistas<br>inmejorables',
-    'hero.subtitle':'Ático premium en Castellón para profesionales jóvenes, nómadas digitales y emprendedores que buscan más que un alojamiento.',
+    'hero.eyebrow': 'Azahar Living · Ático Premium · Castellón de la Plana',
+    'hero.title':   'Coliving en Castellón<br>para profesionales',
+    'hero.subtitle':'Habitaciones privadas en un ático premium de 240 m² en el centro de Castellón. WiFi de alta velocidad, cocina compartida, lavandería y gastos incluidos.',
     'hero.cta1':    'Ver habitaciones',
     'hero.cta2':    'Reservar plaza',
     'hero.stat1':   'desde / mes',
@@ -214,9 +214,9 @@ const translations = {
     'nav.cta':      'Book now',
 
     /* Hero */
-    'hero.eyebrow': 'Penthouse · Professional Coliving · Castellón de la Plana',
-    'hero.title':   'Penthouse with<br>unbeatable views',
-    'hero.subtitle':'Premium coliving in a Castellón penthouse for young professionals, digital nomads and entrepreneurs who want more than just accommodation.',
+    'hero.eyebrow': 'Azahar Living · Premium Penthouse · Castellón de la Plana',
+    'hero.title':   'Coliving in Castellón<br>for professionals',
+    'hero.subtitle':'Private rooms in a 240 m² premium penthouse in the centre of Castellón. High-speed WiFi, shared kitchen, laundry and bills included.',
     'hero.cta1':    'See rooms',
     'hero.cta2':    'Book a spot',
     'hero.stat1':   'from / month',
