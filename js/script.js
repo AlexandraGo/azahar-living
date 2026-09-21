@@ -19,7 +19,7 @@ const translations = {
     'nav.cta':      'Reservar',
 
     /* Hero */
-    'hero.eyebrow': 'Azahar Living · Ático Premium · Castellón de la Plana',
+    'hero.eyebrow': 'Azahar Living · Habitaciones en Castellón',
     'hero.title':   'Habitaciones en Castellón<br>para estudiantes y jóvenes profesionales',
     'hero.subtitle':'Tu habitación privada en Castellón, con todo lo que necesitas para vivir, estudiar y trabajar.',
     'hero.pill1':   'Habitación privada',
@@ -274,7 +274,7 @@ const translations = {
     'nav.cta':      'Book now',
 
     /* Hero */
-    'hero.eyebrow': 'Azahar Living · Premium Penthouse · Castellón de la Plana',
+    'hero.eyebrow': 'Azahar Living · Rooms in Castellón',
     'hero.title':   'Rooms in Castellón<br>for students and young professionals',
     'hero.subtitle':'Your private room in Castellón, with everything you need to live, study and work.',
     'hero.pill1':   'Private room',
@@ -324,7 +324,7 @@ const translations = {
     'nav.cta':      'Book now',
 
     /* Hero */
-    'hero.eyebrow': 'Azahar Living · Premium Penthouse · Castellón de la Plana',
+    'hero.eyebrow': 'Azahar Living · Rooms in Castellón',
     'hero.title':   'Rooms in Castellón<br>for students and young professionals',
     'hero.subtitle':'Your private room in Castellón, with everything you need to live, study and work.',
     'hero.cta1':    'See rooms',
