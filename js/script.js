@@ -15,6 +15,7 @@ const translations = {
     'nav.forwhom':  '¿Para quién?',
     'nav.services': 'Servicios',
     'nav.location': 'Castellón',
+    'nav.faq':      'FAQ',
     'nav.contact':  'Reserva',
     'nav.cta':      'Reservar',
 
@@ -256,11 +257,26 @@ const translations = {
     'form.errName':  'Por favor, introduce tu nombre.',
     'form.errEmail': 'Por favor, introduce un email válido.',
 
-    /* Footer */
-    'footer.tagline':    'More than a place.',
-    'footer.nav':        'Navegación',
-    'footer.contactTitle':'Contacto',
-    'footer.rights':     'Todos los derechos reservados',
+    /* FAQ ES */
+    'faq.label':   'Preguntas frecuentes',
+    'faq.title':   'Preguntas frecuentes',
+    'faq.subtitle':'Todo lo que necesitas saber antes de reservar.',
+    'faq.q1': '¿Qué incluye el precio mensual?',
+    'faq.a1': 'El precio incluye todo: habitación privada, WiFi de alta velocidad, agua, luz, gas, limpieza semanal de zonas comunes, uso de cocina equipada y lavandería. Un solo pago al mes, sin sorpresas.',
+    'faq.q2': '¿Cuál es la estancia mínima?',
+    'faq.a2': 'La estancia mínima es de 6 meses. Es un alojamiento pensado para estudiantes de curso completo y profesionales que se instalan en Castellón, no para estancias cortas.',
+    'faq.q3': '¿Está cerca de la UJI?',
+    'faq.a3': 'Sí. Azahar Living está en la Av. Rei en Jaume 92, en el centro de Castellón, a aproximadamente 15 minutos del campus de la Universidad Jaume I (UJI).',
+    'faq.q4': '¿Cuántas personas viven en el piso?',
+    'faq.a4': 'El ático tiene 7 habitaciones privadas. Conviven entre 5 y 7 personas con perfil de estudiante o joven profesional.',
+    'faq.q5': '¿Hay parking disponible?',
+    'faq.a5': 'Sí, hay plaza de parking disponible con coste adicional. Consúltanos disponibilidad y precio al contactar.',
+    'faq.q6': '¿Cómo reservo una habitación?',
+    'faq.a6': 'Rellena el formulario o escríbenos a azaharliving@gmail.com. Te respondemos en menos de 24 horas.',
+    'faq.q7': '¿Qué pasa si no hay habitaciones disponibles?',
+    'faq.a7': 'Puedes apuntarte a la lista de espera. Te avisamos en cuanto se libere una plaza.',
+
+    /* Footer ES */
   },
 
   en: {
@@ -270,6 +286,7 @@ const translations = {
     'nav.forwhom':  'Who is it for?',
     'nav.services': 'Services',
     'nav.location': 'Castellón',
+    'nav.faq':      'FAQ',
     'nav.contact':  'Book',
     'nav.cta':      'Book now',
 
@@ -508,11 +525,26 @@ const translations = {
     'form.errName':  'Please enter your name.',
     'form.errEmail': 'Please enter a valid email address.',
 
-    /* Footer */
-    'footer.tagline':     'More than a place.',
-    'footer.nav':         'Navigation',
-    'footer.contactTitle':'Contact',
-    'footer.rights':      'All rights reserved',
+    /* FAQ EN */
+    'faq.label':   'FAQ',
+    'faq.title':   'Frequently asked questions',
+    'faq.subtitle':'Everything you need to know before booking.',
+    'faq.q1': 'What does the monthly price include?',
+    'faq.a1': 'The price includes everything: private room, high-speed WiFi, water, electricity, gas, weekly cleaning of common areas, equipped kitchen and laundry. One monthly payment, no surprises.',
+    'faq.q2': 'What is the minimum stay?',
+    'faq.a2': 'The minimum stay is 6 months. It is accommodation designed for full-year students and professionals settling in Castellón, not for short stays.',
+    'faq.q3': 'Is it close to UJI?',
+    'faq.a3': 'Yes. Azahar Living is at Av. Rei en Jaume 92, in the centre of Castellón, approximately 15 minutes from the Universidad Jaume I (UJI) campus.',
+    'faq.q4': 'How many people live in the flat?',
+    'faq.a4': 'The penthouse has 7 private rooms. Between 5 and 7 people live together, all students or young professionals.',
+    'faq.q5': 'Is parking available?',
+    'faq.a5': 'Yes, a parking space is available at an additional cost. Ask us about availability and price.',
+    'faq.q6': 'How do I book a room?',
+    'faq.a6': 'Fill in the contact form or email us at azaharliving@gmail.com. We reply within 24 hours.',
+    'faq.q7': 'What if there are no rooms available?',
+    'faq.a7': 'You can join the waiting list. We will let you know as soon as a spot opens up.',
+
+    /* Footer EN */
   }
 };
 
