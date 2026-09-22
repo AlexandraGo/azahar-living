@@ -20,6 +20,199 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- ===================== SCHEMA.ORG ===================== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+
+      {
+        "@type": ["Organization", "LocalBusiness"],
+        "@id": "https://azaharliving.es/#organization",
+        "name": "Azahar Living",
+        "url": "https://azaharliving.es",
+        "logo": "https://azaharliving.es/images/Logo Coliving.png",
+        "email": "azaharliving@gmail.com",
+        "description": "Habitaciones en alquiler en Castellón de la Plana para estudiantes y jóvenes profesionales. Coliving moderno con habitaciones privadas desde 330€/mes, todo incluido.",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Av. Rei en Jaume, 92",
+          "addressLocality": "Castellón de la Plana",
+          "postalCode": "12001",
+          "addressCountry": "ES"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 39.98803,
+          "longitude": -0.04165
+        },
+        "priceRange": "€€",
+        "openingHours": "Mo-Su 00:00-23:59",
+        "sameAs": []
+      },
+
+      {
+        "@type": "WebSite",
+        "@id": "https://azaharliving.es/#website",
+        "url": "https://azaharliving.es",
+        "name": "Azahar Living",
+        "description": "Habitaciones en Castellón para estudiantes y jóvenes profesionales",
+        "publisher": { "@id": "https://azaharliving.es/#organization" },
+        "inLanguage": ["es", "en"]
+      },
+
+      {
+        "@type": "FAQPage",
+        "@id": "https://azaharliving.es/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "¿Qué incluye el precio mensual?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "El precio incluye todo: habitación privada, WiFi de alta velocidad, agua, luz, gas, limpieza semanal de zonas comunes, uso de cocina equipada y lavandería. Un solo pago al mes, sin sorpresas."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cuál es la estancia mínima?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "La estancia mínima es de 6 meses. Es un alojamiento pensado para estudiantes de curso completo y profesionales que se instalan en Castellón."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Está cerca de la UJI?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sí. Azahar Living está en la Av. Rei en Jaume 92, en el centro de Castellón, a aproximadamente 15 minutos del campus de la Universidad Jaume I (UJI)."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cuántas personas viven en el piso?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "El ático tiene 7 habitaciones privadas. Conviven entre 5 y 7 personas con perfil de estudiante o joven profesional."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Hay parking disponible?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sí, hay plaza de parking disponible con coste adicional. Consúltanos disponibilidad y precio al contactar."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cómo reservo una habitación?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Rellena el formulario de contacto o escríbenos a azaharliving@gmail.com. Te respondemos en menos de 24 horas."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Qué pasa si no hay habitaciones disponibles?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Puedes apuntarte a la lista de espera en el formulario. Te avisamos en cuanto se libere una plaza."
+            }
+          }
+        ]
+      },
+
+      {
+        "@type": "ItemList",
+        "@id": "https://azaharliving.es/#rooms",
+        "name": "Habitaciones en Azahar Living",
+        "description": "7 habitaciones privadas en Castellón de la Plana",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@type": "Offer",
+              "name": "Habitación Standard",
+              "description": "Habitación estándar de 15 m² con vistas a la montaña. Cama 135 cm, armario empotrado, WiFi. Todo incluido.",
+              "price": "330",
+              "priceCurrency": "EUR",
+              "priceSpecification": {
+                "@type": "UnitPriceSpecification",
+                "price": "330",
+                "priceCurrency": "EUR",
+                "unitText": "mes"
+              },
+              "availability": "https://schema.org/InStock",
+              "seller": { "@id": "https://azaharliving.es/#organization" }
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@type": "Offer",
+              "name": "Habitación Premium",
+              "description": "Habitación premium de 20 m² con vistas al mar Mediterráneo. Cama 135 cm, armario grande, WiFi. Todo incluido.",
+              "price": "350",
+              "priceCurrency": "EUR",
+              "priceSpecification": {
+                "@type": "UnitPriceSpecification",
+                "price": "350",
+                "priceCurrency": "EUR",
+                "unitText": "mes"
+              },
+              "availability": "https://schema.org/InStock",
+              "seller": { "@id": "https://azaharliving.es/#organization" }
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+              "@type": "Offer",
+              "name": "Habitación Premium con Terraza",
+              "description": "Habitación premium de 20 m² con vistas al mar y terraza privada exclusiva. Cama 135 cm. Todo incluido.",
+              "price": "380",
+              "priceCurrency": "EUR",
+              "priceSpecification": {
+                "@type": "UnitPriceSpecification",
+                "price": "380",
+                "priceCurrency": "EUR",
+                "unitText": "mes"
+              },
+              "availability": "https://schema.org/InStock",
+              "seller": { "@id": "https://azaharliving.es/#organization" }
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "item": {
+              "@type": "Offer",
+              "name": "Suite",
+              "description": "Suite de 25 m² con vistas al mar, zona de trabajo independiente y cama 135 cm. Todo incluido.",
+              "price": "400",
+              "priceCurrency": "EUR",
+              "priceSpecification": {
+                "@type": "UnitPriceSpecification",
+                "price": "400",
+                "priceCurrency": "EUR",
+                "unitText": "mes"
+              },
+              "availability": "https://schema.org/InStock",
+              "seller": { "@id": "https://azaharliving.es/#organization" }
+            }
+          }
+        ]
+      }
+
+    ]
+  }
+  </script>
 </head>
 <body>
 
