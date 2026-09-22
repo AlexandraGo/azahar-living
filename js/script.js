@@ -49,6 +49,13 @@ const translations = {
     'why.p5.title': 'Centro de Castellón',
     'why.p5.desc':  'Av. Rei en Jaume 92 — a pie de todo lo que necesitas.',
 
+    /* SEO content */
+    'seo.label': 'Habitaciones en alquiler',
+    'seo.title': 'Habitaciones en alquiler en Castellón',
+    'seo.p1':    'Azahar Living ofrece habitaciones privadas en alquiler en Castellón de la Plana para estudiantes y jóvenes profesionales. El alojamiento combina habitaciones privadas con zonas comunes, cocina compartida, lavandería, WiFi de alta velocidad y limpieza semanal.',
+    'seo.p2':    'Si buscas alquilar una habitación en Castellón, Azahar Living ofrece una alternativa cómoda para estudiantes de la UJI, Erasmus, estudiantes de máster y profesionales que llegan a la ciudad por trabajo. Las habitaciones están amuebladas y los principales gastos están incluidos en una sola cuota mensual.',
+    'seo.p3':    'El alojamiento está situado en la Avenida Rei en Jaume, en el centro de Castellón de la Plana, con acceso a comercios, servicios, transporte y conexión con la Universidad Jaume I.',
+
     /* For whom */
     'fw.label':   '¿Para quién?',
     'fw.title':   '¿Para quién es Azahar Living?',
@@ -319,6 +326,20 @@ const translations = {
     'why.p4.desc':  'Share space with students and professionals who share your energy.',
     'why.p5.title': 'Castellón centre',
     'why.p5.desc':  'Av. Rei en Jaume 92 — walking distance from everything.',
+
+    /* SEO content */
+    'seo.label': 'Habitaciones en alquiler',
+    'seo.title': 'Habitaciones en alquiler en Castellón',
+    'seo.p1':    'Azahar Living ofrece habitaciones privadas en alquiler en Castellón de la Plana para estudiantes y jóvenes profesionales. El alojamiento combina habitaciones privadas con zonas comunes, cocina compartida, lavandería, WiFi de alta velocidad y limpieza semanal.',
+    'seo.p2':    'Si buscas alquilar una habitación en Castellón, Azahar Living ofrece una alternativa cómoda para estudiantes de la UJI, Erasmus, estudiantes de máster y profesionales que llegan a la ciudad por trabajo. Las habitaciones están amuebladas y los principales gastos están incluidos en una sola cuota mensual.',
+    'seo.p3':    'El alojamiento está situado en la Avenida Rei en Jaume, en el centro de Castellón de la Plana, con acceso a comercios, servicios, transporte y conexión con la Universidad Jaume I.',
+
+    /* SEO content */
+    'seo.label': 'Rooms for rent',
+    'seo.title': 'Rooms for rent in Castellón',
+    'seo.p1':    'Azahar Living offers private rooms for rent in Castellón de la Plana for students and young professionals. The accommodation combines private rooms with common areas, shared kitchen, laundry, high-speed WiFi and weekly cleaning.',
+    'seo.p2':    'If you are looking to rent a room in Castellón, Azahar Living is a comfortable option for UJI students, Erasmus, master students and professionals arriving in the city for work. Rooms are furnished and main bills are included in a single monthly payment.',
+    'seo.p3':    'The accommodation is located on Avenida Rei en Jaume, in the centre of Castellón de la Plana, with easy access to shops, services, transport and the Universidad Jaume I.',
 
     /* For whom */
     'fw.label':   'Who is it for?',
