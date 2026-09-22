@@ -22,7 +22,7 @@ const translations = {
     /* Hero */
     'hero.eyebrow': 'Azahar Living · Habitaciones en Castellón',
     'hero.title':   'Habitaciones en Castellón<br>para estudiantes y jóvenes profesionales',
-    'hero.subtitle':'Tu habitación privada en Castellón, con todo lo que necesitas para vivir, estudiar y trabajar.',
+    'hero.subtitle':'Habitaciones privadas en alquiler en Castellón de la Plana para estudiantes y jóvenes profesionales.',
     'hero.pill1':   'Habitación privada',
     'hero.pill2':   'Comunidad',
     'hero.pill3':   'Espacio de trabajo',
@@ -300,7 +300,7 @@ const translations = {
     /* Hero */
     'hero.eyebrow': 'Azahar Living · Rooms in Castellón',
     'hero.title':   'Rooms in Castellón<br>for students and young professionals',
-    'hero.subtitle':'Your private room in Castellón, with everything you need to live, study and work.',
+    'hero.subtitle':'Private rooms for rent in Castellón de la Plana for students and young professionals.',
     'hero.pill1':   'Private room',
     'hero.pill2':   'Community',
     'hero.pill3':   'Work space',
@@ -364,7 +364,7 @@ const translations = {
     /* Hero */
     'hero.eyebrow': 'Azahar Living · Rooms in Castellón',
     'hero.title':   'Rooms in Castellón<br>for students and young professionals',
-    'hero.subtitle':'Your private room in Castellón, with everything you need to live, study and work.',
+    'hero.subtitle':'Private rooms for rent in Castellón de la Plana for students and young professionals.',
     'hero.cta1':    'See rooms',
     'hero.cta2':    'Book a spot',
     'hero.stat1':   'all inclusive / month',
