@@ -1824,3 +1824,29 @@ button { cursor: pointer; font-family: inherit; }
   font-size: .95rem;
   line-height: 1.8;
 }
+
+/* ============================================================
+   SUBPAGES — Hero y breadcrumb
+   ============================================================ */
+.subpage-hero {
+  background: var(--clr-bg-alt);
+  padding: 120px 0 64px;
+  border-bottom: 1px solid var(--clr-border);
+}
+.subpage-hero__content { max-width: 800px; }
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: .82rem;
+  color: var(--clr-text-muted);
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+.breadcrumb a {
+  color: var(--clr-primary);
+  text-decoration: none;
+}
+.breadcrumb a:hover { text-decoration: underline; }
+.breadcrumb span { color: var(--clr-text-muted); }
