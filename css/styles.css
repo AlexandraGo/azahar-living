@@ -1776,3 +1776,36 @@ button { cursor: pointer; font-family: inherit; }
   line-height: 1.7;
   padding-top: 16px;
 }
+
+/* ── Room card img real ── */
+.room-card__img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+/* Fallback cuando no existe la foto todavía */
+.room-card.no-photo .room-card__img,
+.room-card__img[src=""] {
+  display: none;
+}
+.no-photo::before {
+  content: '';
+  display: block;
+  height: 200px;
+  background: var(--clr-bg-alt);
+}
+.no-photo::after {
+  content: '📷  Foto próximamente';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  margin-top: -200px;
+  font-size: .82rem;
+  color: var(--clr-gold);
+  font-style: italic;
+  letter-spacing: .04em;
+}
