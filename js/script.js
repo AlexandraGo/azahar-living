@@ -737,20 +737,43 @@ function initContactForm() {
 
     if (!valid) return;
 
-    /* Simular envío — en producción conectar con backend / Formspree / EmailJS */
+    /* Envío real a Formspree */
     const submitBtn = form.querySelector('button[type="submit"]');
     submitBtn.disabled = true;
     submitBtn.textContent = currentLang === 'es' ? 'Enviando…' : 'Sending…';
 
-    setTimeout(() => {
-      form.reset();
-      submitBtn.disabled = false;
-      submitBtn.textContent = dict['form.submit'];
-      successMsg.textContent = dict['form.success'];
-      successMsg.classList.add('visible');
+    const data = new FormData(form);
 
-      setTimeout(() => successMsg.classList.remove('visible'), 5000);
-    }, 900);
+    fetch('https://formspree.io/f/mdekzdrv', {
+      method: 'POST',
+      body: data,
+      headers: { 'Accept': 'application/json' }
+    })
+    .then(response => {
+      if (response.ok) {
+        form.reset();
+        submitBtn.disabled = false;
+        submitBtn.textContent = translations[currentLang]['form.submit'];
+        successMsg.textContent = translations[currentLang]['form.success'];
+        successMsg.classList.add('visible');
+        setTimeout(() => successMsg.classList.remove('visible'), 6000);
+      } else {
+        response.json().then(data => {
+          submitBtn.disabled = false;
+          submitBtn.textContent = translations[currentLang]['form.submit'];
+          alert(currentLang === 'es'
+            ? 'Error al enviar. Por favor inténtalo de nuevo.'
+            : 'Error sending. Please try again.');
+        });
+      }
+    })
+    .catch(() => {
+      submitBtn.disabled = false;
+      submitBtn.textContent = translations[currentLang]['form.submit'];
+      alert(currentLang === 'es'
+        ? 'Error de conexión. Por favor inténtalo de nuevo.'
+        : 'Connection error. Please try again.');
+    });
   });
 
   /* Limpiar error al escribir */
