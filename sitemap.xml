@@ -14,6 +14,18 @@
   </url>
 
   <url>
+    <loc>https://azaharliving.es/coliving-castellon/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://azaharliving.es/alquiler-habitaciones-castellon/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
     <loc>https://azaharliving.es/habitaciones-estudiantes-castellon/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -23,6 +35,54 @@
     <loc>https://azaharliving.es/habitaciones-profesionales-castellon/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://azaharliving.es/habitaciones-cerca-uji/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://azaharliving.es/habitaciones/standard/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://azaharliving.es/habitaciones/premium/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://azaharliving.es/habitaciones/premium-terraza/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://azaharliving.es/habitaciones/suite/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://azaharliving.es/vivir-en-castellon/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://azaharliving.es/sobre-nosotros/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://azaharliving.es/contacto/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
 
 </urlset>
