@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Fondo verde oscuro del logo -->
+  <rect width="100" height="100" rx="18" fill="#2D4A35"/>
+  
+  <!-- A grande en crema -->
+  <text x="50" y="72" 
+        font-family="Georgia, serif" 
+        font-size="72" 
+        font-weight="700"
+        text-anchor="middle" 
+        fill="#F5F0E8">A</text>
+  
+  <!-- Flor dorada encima de la A -->
+  <!-- Pétalos -->
+  <ellipse cx="62" cy="32" rx="5" ry="9" fill="#C9A96E" transform="rotate(-30 62 32)"/>
+  <ellipse cx="68" cy="38" rx="5" ry="9" fill="#C9A96E" transform="rotate(20 68 38)"/>
+  <ellipse cx="58" cy="40" rx="5" ry="9" fill="#C9A96E" transform="rotate(-70 58 40)"/>
+  <ellipse cx="72" cy="30" rx="4" ry="8" fill="#C9A96E" transform="rotate(60 72 30)"/>
+  <!-- Centro flor -->
+  <circle cx="65" cy="35" r="5" fill="#F5F0E8"/>
+  <circle cx="65" cy="35" r="3" fill="#C9A96E"/>
+</svg>
